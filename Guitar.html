@@ -6,82 +6,160 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikhil's Guitar Lessons</title>
     <style>
+        /* General Reset and Body Styling */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
+            background-color: #e0f7fa;
+            color: #333;
         }
 
+        /* Header Styling */
         header {
             background-color: #007BFF;
-            padding: 20px 0;
             color: white;
+            padding: 20px;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        h1 {
-            font-size: 36px;
+        header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 5px;
         }
 
+        header p {
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        /* Main Container */
         .container {
             max-width: 800px;
-            margin: 20px auto;
-            background-color: rgb(255, 255, 255);
+            margin: 30px auto;
+            background-color: #ffffff;
             padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: left;
         }
 
-        p {
+        .container h2 {
+            color: #007BFF;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .container p {
             font-size: 18px;
             line-height: 1.6;
+            margin-bottom: 15px;
         }
 
+        /* Contact Info Styling */
         .contact-info {
-            margin-top: 20px;
+            margin-top: 30px;
+            font-size: 18px;
+            color: #007BFF;
         }
 
-        .address {
-            font-weight: bold;
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
         }
 
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styling */
         footer {
             background-color: #007BFF;
             color: white;
-            padding: 5px 0;
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
         }
+
+        /* List Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            font-size: 18px;
+            background: #f0f4f8;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+
+        /* Button Styling */
+        .cta-button {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Welcome to Nikhil's Guitar Lessons!</h1>
+        <h1>Nikhil's Guitar Lessons</h1>
+        <p>Bring Your Music to Life with Personalized Lessons</p>
     </header>
+    
     <div class="container">
-        <p>I'm Nikhil, a 13-year-old with 8 years of guitar playing experience, and I'm passionate about sharing the joy
-            of music with you.</p>
-        <p>Whether you're a beginner looking to start your musical journey or an experienced player aiming to improve
-            your skills, I offer personalized guitar lessons to suit your needs.</p>
-        <p>Why choose Nikhil's Guitar Lessons:</p>
+        <h2>Welcome to My Lessons</h2>
+        <p>I'm Nikhil, a 13-year-old guitarist with over 8 years of experience, and I'm passionate about sharing the joy of music with you!</p>
+        <p>Whether you're a beginner just starting your musical journey or a seasoned player looking to improve, I offer personalized lessons tailored to fit your goals and style.</p>
+        
+        <h2>Why Choose Nikhil's Guitar Lessons?</h2>
         <ul>
-            <li>Years of experience with a friendly and patient teaching approach.</li>
-            <li>Customized lessons tailored to your child's skill level and musical interests.</li>
-            <li>Flexible scheduling to accommodate your busy life.</li>
-            <li>Affordable rates at just £5.99 for every half-hour lesson.</li>
+            <li>8 Years of Guitar Experience with a Friendly Teaching Approach</li>
+            <li>Lessons Customized to Fit Your Skill Level and Musical Interests</li>
+            <li>Flexible Scheduling to Fit Your Busy Life</li>
+            <li>Affordable Rates: Just £5.99 per Half-Hour Lesson</li>
         </ul>
-        <p>If you have any questions or would like to schedule a lesson, please don't hesitate to reach out to me:</p>
 
+        <p>If you're ready to start learning, or just have questions, reach out:</p>
         <div class="contact-info">
             <p>Email: <a href="mailto:wazzupnikhil@gmail.com">wazzupnikhil@gmail.com</a></p>
-            <p>Lesson Timing: Send me an email with your preferred timing.</p>
-            
+            <p>Lesson Times: Email me with your preferred timing!</p>
         </div>
+
+        <a href="mailto:wazzupnikhil@gmail.com" class="cta-button">Book Your First Lesson</a>
     </div>
 
     <footer>
         &copy; 2024 Nikhil's Guitar Lessons | Website by Nikhil
     </footer>
+</body>
+
+</html>
+
 </body>
 
 </html>
