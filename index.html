@@ -7,65 +7,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nikhil Teaches Guitar</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
+        /* General Reset and Body Styling */
+        * {
+            box-sizing: border-box;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Header Styling */
         header {
             background-color: #FF5733;
-            /* Changed header color to orange (#FF5733) */
-            padding: 20px 0;
             color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        h1 {
-            font-size: 36px;
+        header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            margin: 5px 0;
         }
 
+        /* Main Container Styling */
         .container {
             max-width: 800px;
-            margin: 20px auto;
-            background-color: rgb(255, 255, 255);
-            padding: 20px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            padding: 30px;
             border: 2px solid #FF5733;
-            /* Changed border color to orange (#FF5733) */
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
 
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-
-        .contact-info {
-            margin-top: 20px;
-        }
-
-        .address {
-            font-weight: bold;
-        }
-
-        footer {
-            background-color: #FF5733;
-            /* Changed footer color to orange (#FF5733) */
-            color: white;
-            padding: 5px 0;
-        }
-
-        /* Added styles for colorful text */
         .welcome-text {
             color: #FF5733;
-            /* Orange color */
+            font-size: 22px;
+            margin-bottom: 15px;
         }
 
         .course-link {
+            font-size: 20px;
             color: #880000;
-            /* Dark Red color */
+            text-decoration: none;
+            font-weight: bold;
+            border: 2px solid #880000;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .course-link:hover {
+            background-color: #FF5733;
+            color: #ffffff;
+            border-color: #FF5733;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #FF5733;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+            margin-top: auto;
+            width: 100%;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
@@ -74,16 +96,16 @@
     <header>
         <h1>Nikhil Teaches Guitar</h1>
     </header>
+
     <div class="container">
-        <p class="welcome-text">Hi and welcome to Nikhil Teaches Guitar. Click the below link for more details and how
-            to contact me.</p>
-        <a href="Guitar.html" class="course-link">Click this link for more information.</a>
-        
-        </div>
+        <p class="welcome-text">Hi and welcome to Nikhil Teaches Guitar! Click the link below for more details and to learn how to contact me.</p>
+        <a href="Guitar.html" class="course-link">Learn More About Lessons</a>
     </div>
+
     <footer>
         &copy; 2024 Nikhil Teaches Guitar
     </footer>
 </body>
 
 </html>
+
