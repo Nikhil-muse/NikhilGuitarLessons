@@ -14,25 +14,26 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #e0f7fa;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f4f8;
             color: #333;
+            text-align: center;
+            line-height: 1.6;
         }
 
-        /* Header Styling */
+        /* Gradient Header Styling */
         header {
-            background-color: #007BFF;
+            background: linear-gradient(135deg, #FF6B6B, #FFD93D);
             color: white;
-            padding: 20px;
-            font-size: 24px;
+            padding: 25px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         header h1 {
-            font-size: 40px;
+            font-size: 42px;
             font-weight: bold;
             margin-bottom: 5px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         }
 
         header p {
@@ -40,53 +41,26 @@
             font-style: italic;
         }
 
-        /* Main Container */
+        /* Main Container Styling */
         .container {
             max-width: 800px;
-            margin: 30px auto;
+            margin: 40px auto;
             background-color: #ffffff;
-            padding: 20px;
+            padding: 30px;
             border-radius: 10px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
             text-align: left;
         }
 
         .container h2 {
-            color: #007BFF;
+            color: #FF6B6B;
             font-size: 28px;
             margin-bottom: 20px;
         }
 
         .container p {
             font-size: 18px;
-            line-height: 1.6;
             margin-bottom: 15px;
-        }
-
-        /* Contact Info Styling */
-        .contact-info {
-            margin-top: 30px;
-            font-size: 18px;
-            color: #007BFF;
-        }
-
-        .contact-info a {
-            color: #007BFF;
-            text-decoration: none;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        /* Footer Styling */
-        footer {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px;
-            font-size: 14px;
-            text-align: center;
-            margin-top: 20px;
         }
 
         /* List Styling */
@@ -98,30 +72,62 @@
 
         ul li {
             font-size: 18px;
-            background: #f0f4f8;
-            padding: 10px;
-            margin: 5px 0;
+            background: #f9f9f9;
+            color: #333;
+            padding: 12px;
+            margin: 8px 0;
+            border-left: 4px solid #FF6B6B;
             border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Contact Info Styling */
+        .contact-info {
+            margin-top: 30px;
+            font-size: 18px;
+            color: #FF6B6B;
+        }
+
+        .contact-info a {
+            color: #FF6B6B;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
         }
 
         /* Button Styling */
         .cta-button {
             display: inline-block;
-            background-color: #007BFF;
+            background-color: #FF6B6B;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 20px;
             border-radius: 5px;
             text-decoration: none;
             font-size: 18px;
             font-weight: bold;
             margin-top: 20px;
             transition: background-color 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         .cta-button:hover {
-            background-color: #0056b3;
+            background-color: #FFD93D;
+            color: #FF6B6B;
         }
 
+        /* Gradient Footer Styling */
+        footer {
+            background: linear-gradient(135deg, #FF6B6B, #FFD93D);
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 30px;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
@@ -156,10 +162,6 @@
     <footer>
         &copy; 2024 Nikhil's Guitar Lessons | Website by Nikhil
     </footer>
-</body>
-
-</html>
-
 </body>
 
 </html>
